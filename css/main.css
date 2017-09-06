@@ -9,6 +9,21 @@ body,html {
   padding:0;
 }
 
+.one{
+  color:white;
+  background-color: black;
+  height: 100vh;
+  position: fixed;
+}
+
+.two{
+  /*background-color: rgba(26,188,156 ,1);*/
+  /*margin-left: 25%;*/
+  /*padding: 20px;*/
+  min-height: 100vh;
+  position: absolute;
+}
+
 .Logo,.MenuContainer{
   text-align: center;
   font-size: 24px;
@@ -20,7 +35,6 @@ body,html {
 
 .Menu{
   text-align: center;
-
 }
 
 .Menu li{
@@ -38,21 +52,15 @@ body,html {
   color:rgba(26,188,156 ,1);
 }
 
-.one{
-  color:white;
-  background-color: black;
+.MainPage{
   height: 100vh;
-  position: fixed;
+  background-image: url(../img/bg_1.png);
+  background-size:cover;
+    background-repeat: no-repeat;
+  padding: 0px;
+  width: 102%;
+  margin-left:-1%;
 }
-
-.two{
-  background-color: rgba(26,188,156 ,1);
-  /*margin-left: 25%;*/
-  padding: 20px;
-  min-height: 100vh;
-}
-
-
 
 /* Media Queries*/
 @media (max-width: 768px) {
